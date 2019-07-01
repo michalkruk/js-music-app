@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.keys {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.keys > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.key1 {
+    background-color: #fa1818;
+}
+
+.key2 {
+    background-color: #b83631;
+}
+
+.key3 {
+    background-color: #f37b1a;
+}
+
+.key4 {
+    background-color: #e9d418;
+}
+
+.key5 {
+    background-color: #81e430;
+}
+
+.key6 {
+    background-color: #23bd38;
+}
+
+.key7 {
+    background-color: #24e7ad;
+}
+
+.key8 {
+    background-color: #137e99;
+}
+
+.key9 {
+    background-color: #1a36da;
+}
+
+.key10 {
+    background-color: #bf28dd;
+}
+
+.key11 {
+    background-color: #9b116d;
+}
+
+.key12 {
+    background-color: #69112f;
+}
