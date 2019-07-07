@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
         ball.style.backgroundColor = colors[index];
         ball.style.animation = "jump 2s ease";
         ball.addEventListener("animationend", function() {
-            visual.removeChild();
+            visual.removeChild(ball);
         });
     };
 });
