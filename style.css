@@ -107,10 +107,10 @@ header h1 {
     }
     50% {
         bottom: 50%;
-        left: 50%;
+        left: 20%;
     }
     100% {
-        bottom: 0%;
-        left: 90%;
+        bottom: 110%;
+        left: 30%;
     }
 }
